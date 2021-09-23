@@ -1,0 +1,111 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Rubik', sans-serif;
+}
+.body,p{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+   max-width: 100%; 
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none !important;
+}
+
+/* header-seciton */
+.header-section{}
+.header-section ul{}
+.header-section ul li{}
+.header-section ul li a {
+    color: black;
+    font-size: 18px;
+    padding: 0 20px;
+    font-weight: 400;
+}
+
+.header-right{}
+.header-search {
+    width: 11%;
+    line-height: 72px;
+    font-size: 22px;
+}
+.header-search i {
+    border-right: 1px solid #111;
+    padding-right: 11px;
+}
+
+.header-call{}
+.header-call .call-icon {
+    width: 42px;
+    margin-left: 10px;
+    font-size: 32px;
+    color: #e83b3e;
+    line-height: 64px;
+}
+.header-call .call-icon i{}
+
+.call-number {
+    width: 152px;
+}
+.call-number h6{
+   
+}
+.call-number a {
+    display: block;
+    color: #111;
+}
+.header-button {
+    width: 156px;
+}
+.btn-main {
+    display: inline-block;
+    background: rgb(232, 59, 62);
+    color: rgb(255, 255, 255);
+    padding: 11px 31px;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+
+/* banner-section */
+.banner-section{
+    background: url(https://i.ibb.co/z8f4NNv/Class-24-2.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.div{
+    margin-top: 80px;
+}
+.div span {
+    margin-right: 20px;
+    display: inline-block;
+}
+.follow-icon{
+    margin-right: 10px;
+}
+.follow-icon i {
+    margin-right: 7px;
+}
+
+/* brand-section */
+.brand-section{
+    padding: 80px 0;
+}
+
+
+/* why-us-section */
+.why-us-section{
+    padding: 100px 0;
+    border-top: 1px solid black;
+}
+
+
+/* about section */
+.about-section{}
+
+.about-section ul{}
+.about-section ul li{
+    position: relative;
+}
